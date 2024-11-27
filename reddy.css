@@ -1,0 +1,60 @@
+body{
+    font-size: 18px;
+    color: blue;
+}
+.main{
+    background-image: url(images/bg-pattern-top.svg);
+    background-color: lightblue;
+    background-image: cover;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    text-align: center;
+    max-width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.topcontainer{
+    background-image: url(images/bg-pattern-card.svg);
+    height: 150px;
+    width: 350px;
+
+}
+.imagedev{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: -50px auto -30px auto;
+    
+}
+.imagedev img{
+    display: block;
+    height: auto;
+    width: 100px;
+}
+.inform{
+    height: 250px;
+    line-height: 1.8rem;
+    margin-top: 54px;
+    margin-bottom: -75px;
+    color: black;
+
+}
+.feedback{
+    border-top: 0.5px solid black;
+    padding-top: 22px;
+    padding-right: 40px;
+    display: flex;
+    margin-top: 23px;
+    align-items: center;
+    padding-left: 40px;
+    justify-content: space-between;
+    flex-direction: row;
+}
